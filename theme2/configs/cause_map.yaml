@@ -1,0 +1,28 @@
+# Normalize raw event_cause values into canonical lowercase categories,
+# and tag which causes are "event-driven" (planned/gathering style) per Theme 2.
+normalize:
+  vehicle_breakdown: vehicle_breakdown
+  pot_holes: pot_holes
+  construction: construction
+  water_logging: water_logging
+  accident: accident
+  tree_fall: tree_fall
+  road_conditions: road_conditions
+  congestion: congestion
+  public_event: public_event
+  procession: procession
+  vip_movement: vip_movement
+  protest: protest
+  others: others
+  Debris: debris
+  debris: debris
+  test_demo: test_demo
+  "Fog / Low Visibility": fog
+
+# Causes that represent planned or crowd/event-driven congestion (the Theme 2 focus).
+event_driven:
+  - public_event
+  - procession
+  - vip_movement
+  - protest
+  - construction

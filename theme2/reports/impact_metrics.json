@@ -1,0 +1,31 @@
+{
+  "severity": {
+    "n_test": 2586,
+    "auc": 1.0,
+    "f1": 0.9997,
+    "precision": 1.0,
+    "recall": 0.9994,
+    "base_rate": 0.6048
+  },
+  "road_closure": {
+    "n_test": 2586,
+    "pr_auc": 0.3202,
+    "auc": 0.7647,
+    "precision@0.5": 0.3485,
+    "recall@0.5": 0.4457,
+    "threshold_tuned": 0.1411,
+    "precision@tuned": 0.2622,
+    "recall@tuned": 0.5814,
+    "f1@tuned": 0.3614,
+    "base_rate": 0.0998
+  },
+  "duration": {
+    "n_test": 2347,
+    "n_cap_rows_excluded_train": 467,
+    "n_cap_rows_excluded_test": 229,
+    "mae_min": 114.4,
+    "rmse_min": 336.9,
+    "median_ae_min": 47.2,
+    "test_median_min": 116.6
+  }
+}

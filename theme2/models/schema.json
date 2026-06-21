@@ -1,0 +1,31 @@
+{
+  "features": [
+    "event_type",
+    "event_cause",
+    "is_event_driven",
+    "corridor",
+    "zone",
+    "veh_type",
+    "hour",
+    "dow",
+    "is_weekend",
+    "month",
+    "week_of_year",
+    "is_holiday",
+    "part_of_day",
+    "latitude",
+    "longitude",
+    "corridor_med_duration",
+    "corridor_event_count",
+    "corridor_closure_rate"
+  ],
+  "cat_features": [
+    "event_type",
+    "event_cause",
+    "corridor",
+    "zone",
+    "veh_type",
+    "part_of_day"
+  ],
+  "split_date": "2024-03-01"
+}

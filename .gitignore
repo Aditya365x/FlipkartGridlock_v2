@@ -1,0 +1,22 @@
+# ---- Python ----
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# ---- Node / frontend build ----
+node_modules/
+theme2/frontend/dist/
+theme2/frontend/node_modules/
+
+# ---- runtime state only (starts empty in production) ----
+theme2/data/feedback_log.csv
+
+# ---- personal / internal — NOT for the public repo (judges) ----
+theme2/EventShield_Video_Script.pdf
+theme2/make_video_script_pdf.py
+theme2/GridLock_Conversation.md
+theme2/export_conversation.py
+
+# NOTE: trained models (theme2/models/), processed data (*.parquet) and report JSON ARE committed
+# on purpose, so the repo is self-contained and Hugging Face can run without retraining (~8.8 MB).

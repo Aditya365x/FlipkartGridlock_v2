@@ -1,0 +1,9 @@
+**/.venv
+**/node_modules
+**/__pycache__
+**/*.pyc
+theme2/frontend/dist
+theme2/data/feedback_log.csv
+.git
+.gitignore
+**/.DS_Store

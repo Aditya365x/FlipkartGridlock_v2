@@ -1,0 +1,10 @@
+{
+  "n_test_buckets": 310,
+  "n_test_rows": 6820,
+  "mae": 0.3996,
+  "rmse": 1.3274,
+  "baseline_mae_lastweek": 0.4661,
+  "precision_at_5": 0.4714,
+  "precision_at_10": 0.5133,
+  "mean_events_per_bucket": 0.3792
+}
