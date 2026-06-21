@@ -1,14 +1,3 @@
----
-title: EVENT Shield AI
-emoji: 🚦
-colorFrom: blue
-colorTo: indigo
-sdk: docker
-app_port: 7860
-pinned: false
-license: mit
----
-
 # 🚦 EVENT Shield AI — Event Traffic Intelligence
 
 AI-powered forecasting & resource optimization for **event-driven traffic congestion**, built on the
@@ -17,7 +6,7 @@ real **ASTraM** event log (Bengaluru · 8,173 events · Nov 2023 – Apr 2024).
 It **quantifies an event's impact in advance**, recommends **optimal manpower / barricades / diversions**,
 and **learns from every event** — a single product with a **FastAPI** backend and a **React** command-center UI.
 
-> **Live demo (Hugging Face Space):** `https://huggingface.co/spaces/<username>/flipkartGridlock`
+> **Live demo (Hugging Face Space):** `https://huggingface.co/spaces/adityaXXXXXX/flipkartGridlock`
 
 ---
 
